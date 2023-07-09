@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="zh-CN"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>山河大学 - 录取通知书生成</title>
+<link rel="stylesheet" type="text/css" href="nyugaku_files/index.css">
+</head>
+<body>
+<div style="width: 780px; margin: 0 auto; margin-top: 20px; position: relative" id="all">
+<img src="nyugaku_files/tzs.png" alt="" style="
+          width: 780px;
+          height: 100%;
+          background-image: url('tzs.png');
+        ">
+<!--<img id="profile-picture" src="LiXuejian.png">-->
+<p id="name">進学山川</p>
+<p id="department">理学部</p>
+<p id="major">生命科学学院</p>
+<p id="no">00000001</p>
+<div style="
+          background-color: #eae7f8;
+          padding-top: 0.5px;
+          padding-bottom: 0.5px;
+          padding-left: 8px;
+          padding-right: 8px;
+        ">
+<h5 style="text-align: center; color: rgb(61, 61, 61)">
+由 山河大学官网 生成 | 由山河大学吧CSHU设计院设计<br>官网 SHU.EDU.PL
+</h5>
+</div>
+</div>
+<center>
+<div class="input-boxes">
+<h1>输入定制信息</h1>
+<p>手机访问建议使用谷歌、Edge浏览器生成，QQ、微信和部分浏览器生成后可能无法保存</p>
+<!--
+<input type="file" id="upload" style="color: white">
+-->
+<input type="text" placeholder="姓名" id="input-name">
+<input type="text" placeholder="系部\学院" id="input-department">
+<input type="text" placeholder="专业" id="input-major">
+<input type="text" placeholder="编号" id="input-no">
+<button onclick="start()">生成</button>
+<a href="" download="" style="display: none" id="download"></a>
+</div>
+</center>
+<script src="nyugaku_files/html2canvas.min.js"></script>
+<script>
+      async function start() {
+        document.getElementById("name").innerText =
+          document.getElementById("input-name").value;
+        document.getElementById("department").innerText =
+          document.getElementById("input-department").value;
+        document.getElementById("major").innerText =
+          document.getElementById("input-major").value;
+        document.getElementById("no").innerText =
+          document.getElementById("input-no").value;
+        await html2canvas(document.getElementById("all"), { scale: 2 }).then(
+          async function (canvas) {
+            canvas = canvas.toDataURL("image/jpeg", 2);
+            console.log(canvas);
+            document.getElementById("download").setAttribute("href", canvas);
+            document.getElementById("download").click();
+          }
+        );
+      }
+      document
+        .getElementById("upload")
+        .addEventListener("change", function (e) {
+          let reader = new FileReader();
+          reader.readAsDataURL(document.getElementById("upload").files[0]);
+          reader.onload = function (r) {
+            document
+              .getElementById("profile-picture")
+              .setAttribute("src", reader.result);
+          };
+        });
+    </script>
+
+
+</body></html>
