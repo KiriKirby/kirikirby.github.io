@@ -1,0 +1,11 @@
+vti_encoding:SR|utf8-nl
+vti_timelastmodified:TR|30 Jul 2021 09:50:20 -0000
+vti_author:SR|wangsychn-PC\\wangsychn
+vti_modifiedby:SR|wangsychn-PC\\wangsychn
+vti_nexttolasttimemodified:TR|30 Jul 2021 09:50:20 -0000
+vti_timecreated:TR|05 Oct 2024 17:57:13 -0000
+vti_extenderversion:SR|6.0.2.8161
+vti_syncwith_localhost\\c\:\\users\\wangsychn\\documents\\my web sites\\理学部\\classic/c\:/users/wangsychn/documents/my web sites/理学部/classic:TR|30 Jul 2021 09:50:20 -0000
+vti_cacheddtm:TX|05 Oct 2024 17:57:13 -0000
+vti_filesize:IR|624345
+vti_backlinkinfo:VX|serv/matedit/example/editor/samples/old/dialog/dialog.html serv/matedit/example/editor/samples/old/htmlwriter/outputhtml.html serv/matedit/example/editor/samples/old/api.html serv/matedit/example/editor/samples/old/tabindex.html serv/matedit/example/editor/samples/toolbarconfigurator/index.html serv/matedit/example/editor/samples/old/ajax.html serv/matedit/example/editor/samples/old/replacebyclass.html serv/matedit/example/editor/samples/old/jquery.html serv/matedit/example/editor/samples/old/readonly.html serv/matedit/example/editor/samples/old/inlineall.html serv/matedit/example/editor/samples/old/htmlwriter/outputforflash.html serv/matedit/example/editor/samples/old/inlinebycode.html serv/matedit/example/editor/samples/old/divreplace.html serv/matedit/example/editor/samples/old/uilanguages.html serv/matedit/example/editor/samples/old/magicline/magicline.html serv/matedit/example/index.html serv/matedit/example/editor/samples/old/uicolor.html serv/matedit/example/editor/samples/old/datafiltering.html serv/matedit/example/editor/samples/old/appendto.html serv/matedit/example/editor/samples/old/replacebycode.html serv/matedit/example/editor/samples/old/toolbar/toolbar.html serv/matedit/example/editor/samples/index.html serv/matedit/example/editor/samples/old/wysiwygarea/fullpage.html serv/matedit/example/editor/samples/old/inlinetextarea.html serv/matedit/example/editor/samples/old/enterkey/enterkey.html serv/matedit/example/editor/samples/old/xhtmlstyle.html
